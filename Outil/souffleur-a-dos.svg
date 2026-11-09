@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title description">
+  <title id="title">Souffleur à dos — schéma indicatif</title>
+  <desc id="description">Illustration d’un souffleur à dos montrant le moteur, le harnais, la poignée de commande, le flexible et le tube de soufflage.</desc>
+  <defs>
+    <linearGradient id="housing" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f19a48"/>
+      <stop offset="1" stop-color="#d65d2e"/>
+    </linearGradient>
+    <linearGradient id="tube" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#3d4941"/>
+      <stop offset="1" stop-color="#202b26"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#315d49" opacity=".1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="#fbfaf6"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <path d="M75 566H1125" fill="none" stroke="#d8d8ca" stroke-width="3"/>
+  <ellipse cx="872" cy="552" rx="222" ry="22" fill="#26352c" opacity=".08"/>
+  <ellipse cx="359" cy="540" rx="258" ry="15" fill="#26352c" opacity=".06"/>
+
+  <g stroke="#29372f" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M837 174c-72 6-104 61-86 130l33 129c8 34 31 56 65 57l147-1c31-1 48-21 44-50l-15-163c-7-68-42-105-110-106z" fill="#48574d" stroke-width="9"/>
+    <path d="M822 220c-37 12-55 43-48 83l38 132c6 21 21 35 45 37l91-2-12-246z" fill="#65766a" stroke-width="6"/>
+    <path d="M872 179c4 48 31 68 75 63 48-6 69-30 70-67" fill="none" stroke="#e9e5d8" stroke-width="17"/>
+    <path d="M864 188c12 37 34 51 71 46 39-5 59-20 68-48" fill="none" stroke="#29372f" stroke-width="7"/>
+    <path d="M1023 208c41 18 59 49 63 91l10 143c3 40-17 63-53 65l-17-1-9-53 19-2-14-167c-3-31-11-50-30-63z" fill="#d9d7c9" stroke-width="7"/>
+    <path d="M1065 250c-36 17-62 47-80 86l-52 120" fill="none" stroke="#d9d7c9" stroke-width="17"/>
+    <path d="M1065 250c-36 17-62 47-80 86l-52 120" fill="none" stroke="#29372f" stroke-width="6"/>
+    <path d="M884 237c-20 33-18 83 2 116l66-9c16-34 11-75-7-105z" fill="url(#housing)" stroke-width="8"/>
+    <path d="M872 264h81m-73 16h79m-72 16h75m-65 17h59" fill="none" stroke="#8d4228" stroke-width="6"/>
+    <path d="M958 242c39-13 79 4 91 40l13 51c9 37-12 72-48 82l-79 22-35-96z" fill="url(#housing)" stroke-width="8"/>
+    <path d="M990 266c26-7 48 4 55 26l8 27c5 21-7 40-28 47l-47 15-24-69z" fill="#f3a24e" stroke-width="5"/>
+    <path d="M1000 279l22-7m-17 19 29-8m-23 20 29-8m-20 21 25-7m-42 15 34-10" fill="none" stroke="#9c4a2d" stroke-width="5"/>
+    <path d="M926 360c-20 17-26 39-17 64l14 36c8 21 29 30 51 22l49-18-24-81-37-37z" fill="#38443c" stroke-width="7"/>
+    <path d="M938 384l21 49m2-59 21 52m2-61 20 52" fill="none" stroke="#879287" stroke-width="5"/>
+    <path d="M919 433l-5 47m-44-44-19 39m203-76 21 29" fill="none" stroke="#29372f" stroke-width="10"/>
+
+    <path d="M946 390c-63 2-82 29-139 48-54 18-118 13-174 8" fill="none" stroke="#222c27" stroke-width="39"/>
+    <path d="M946 390c-63 2-82 29-139 48-54 18-118 13-174 8" fill="none" stroke="#677269" stroke-width="25"/>
+    <path d="M928 394c-57 9-91 35-130 46m-19 5c-45 8-84 6-125 2" fill="none" stroke="#303b34" stroke-width="4" stroke-dasharray="4 9"/>
+    <path d="M658 440c-31-4-44-23-40-48l5-30" fill="none" stroke="#29372f" stroke-width="16"/>
+    <path d="M634 362l4-21q2-9 12-9h29q10 0 10 10v16q0 11-10 11h-31" fill="#e47736" stroke-width="7"/>
+    <path d="M649 343h25" fill="none" stroke="#f8c17a" stroke-width="4"/>
+
+    <path d="M620 409c-93 7-169 30-247 53-75 21-145 34-248 40" fill="none" stroke="#202a25" stroke-width="34"/>
+    <path d="M620 409c-93 7-169 30-247 53-75 21-145 34-248 40" fill="none" stroke="url(#tube)" stroke-width="24"/>
+    <path d="M577 416l3 23m-24-17 3 23m-24-17 3 23m-24-17 3 23m-24-17 3 23m-24-17 3 23m-24-17 3 23" fill="none" stroke="#718076" stroke-width="3"/>
+    <path d="M125 492c39 4 74-1 107-8l15 33c-39 14-83 20-132 15z" fill="#29372f" stroke-width="7"/>
+    <path d="M135 500c30 2 57-1 82-6" fill="none" stroke="#748078" stroke-width="4"/>
+  </g>
+
+  <g fill="#26362d" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="46" font-size="16" font-weight="700" letter-spacing="3">SOUFFLEUR À DOS</text>
+    <text x="600" y="632" font-size="12" font-weight="700" letter-spacing="1.5">ILLUSTRATION INDICATIVE · LES ÉQUIPEMENTS VARIENT SELON LE MODÈLE</text>
+  </g>
+</svg>

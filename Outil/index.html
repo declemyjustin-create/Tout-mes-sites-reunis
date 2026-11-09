@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore des outils de jardin et de chantier, identifie leurs pièces et découvre les bons réflexes de sécurité.">
+    <meta name="theme-color" content="#f5f4ed">
+    <title>L’Atelier du geste — Apprendre ses outils</title>
+    <link rel="stylesheet" href="style.css?v=21">
+    <script src="script.js?v=28" defer></script>
+</head>
+<body>
+    <header class="topbar">
+        <a class="brand" href="#accueil" aria-label="L’Atelier du geste, accueil">
+            <span class="brand-icon" aria-hidden="true">A<span>.</span></span>
+            <span>L’ATELIER DU GESTE<small>APPRENDRE · COMPRENDRE · SE PROTÉGER</small></span>
+        </a>
+        <a class="back-link" href="../index.html">Parcourir les autres projets <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+        <section class="hero" id="accueil" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="eyebrow-dot"></span> DES OUTILS, EN CLAIR <span class="eyebrow-note">PREMIER PARCOURS</span></p>
+                <h1 id="hero-title">Mieux connaître<br>son <em>outil.</em></h1>
+                <p class="hero-text">Choisis un outil, explore ses différentes parties et apprends à quoi elles servent — sans oublier les dangers et les protections adaptées.</p>
+                <div class="hero-actions">
+                    <a class="primary-button" href="#outils">Choisir un outil <span aria-hidden="true">↓</span></a>
+                    <a class="text-button" href="#entrainement-ccf">S’entraîner au CCF <span aria-hidden="true">↓</span></a>
+                </div>
+                <p class="hero-footnote"><span aria-hidden="true">✳</span> Un guide visuel pour apprendre à son rythme.</p>
+            </div>
+            <div class="hero-art">
+                <span class="art-label" id="featured-label">OUTIL DU JOUR</span>
+                <img id="featured-photo" src="debroussailleuse.png" alt="Débroussailleuse orange : le moteur est à droite, le guidon au centre et la tête de coupe à gauche">
+                <span class="art-caption" id="featured-caption">La débroussailleuse</span>
+                <span class="art-stamp" aria-hidden="true">LE<br>BON<br>GESTE</span>
+            </div>
+            <div class="hero-bottom"><span>APPRENDRE AVANT D’AGIR</span><span>UN OUTIL · PLUSIEURS PARCOURS</span></div>
+        </section>
+
+        <section class="tool-section" id="outils" aria-labelledby="tools-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow"><span class="eyebrow-dot"></span> À TOI DE CHOISIR</p>
+                    <h2 id="tools-title">Avec quel outil<br>on commence<span class="period"> ?</span></h2>
+                </div>
+                <p class="section-intro">Choisis un outil pour ouvrir sa page dédiée et explorer son fonctionnement à ton rythme.</p>
+            </div>
+
+            <label class="tool-search">
+                <span aria-hidden="true">⌕</span>
+                <input id="tool-search" type="search" placeholder="Rechercher un outil…" aria-label="Rechercher un outil par son nom ou son usage">
+                <kbd>/</kbd>
+            </label>
+            <p class="tool-count" id="tool-count" aria-live="polite">22 outils</p>
+            <div class="tool-grid">
+                <button class="tool-card is-ready" type="button" data-page="outils/debroussailleuse/" data-search="débroussailleuse débroussailleuse herbe végétation coupe fil moteur jardin">
+                    <span class="tool-card-art">
+                        <img src="debroussailleuse.png" alt="" aria-hidden="true">
+                        <span class="tool-card-badge"><span></span> PARCOURS DISPONIBLE</span>
+                        <span class="tool-card-number">01</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">JARDIN · ENTRETIEN DES ESPACES VERTS</span>
+                        <span class="tool-card-title">La débroussailleuse <span aria-hidden="true">↗</span></span>
+                        <span class="tool-card-description">Ses pièces, son fonctionnement, les risques et les équipements de protection à connaître.</span>
+                        <span class="tool-card-footer">Explorer cet outil <span aria-hidden="true">→</span></span>
+                    </span>
+                </button>
+
+                <button class="tool-card is-ready" type="button" data-page="outils/souffleur-a-dos/" data-search="souffleur souffleur à dos feuilles nettoyage extérieur air moteur harnais">
+                    <span class="tool-card-art">
+                        <img src="souffleur-a-dos-photo.png" alt="" aria-hidden="true" loading="lazy">
+                        <span class="tool-card-badge"><span></span> PARCOURS DISPONIBLE</span>
+                        <span class="tool-card-number">02</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">JARDIN · NETTOYAGE DES EXTÉRIEURS</span>
+                        <span class="tool-card-title">Le souffleur à dos <span aria-hidden="true">↗</span></span>
+                        <span class="tool-card-description">Repère le moteur, le tube, les commandes et le harnais, et apprends les précautions à connaître.</span>
+                        <span class="tool-card-footer">Explorer cet outil <span aria-hidden="true">→</span></span>
+                    </span>
+                </button>
+
+                <button class="tool-card is-ready" type="button" data-page="outils/taille-haie-thermique/" data-search="taille-haie thermique taille haie thermique haies arbustes lames moteur essence jardin">
+                    <span class="tool-card-art">
+                        <img src="taille-haie.png" alt="" aria-hidden="true">
+                        <span class="tool-card-badge"><span></span> PARCOURS DISPONIBLE</span>
+                        <span class="tool-card-number">03</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">JARDIN · TAILLE DES HAIES</span>
+                        <span class="tool-card-title">Le taille-haie thermique <span aria-hidden="true">↗</span></span>
+                        <span class="tool-card-description">Découvre ses poignées, ses lames, son fonctionnement et les protections adaptées.</span>
+                        <span class="tool-card-footer">Explorer cet outil <span aria-hidden="true">→</span></span>
+                    </span>
+                </button>
+
+                <button class="tool-card is-ready" type="button" data-page="outils/tronconneuse/" data-search="tronçonneuse tronconneuse chaîne guide-chaîne guide chaine bois couper arbre coupe">
+                    <span class="tool-card-art">
+                        <img src="tronconneuse.png" alt="" aria-hidden="true">
+                        <span class="tool-card-badge"><span></span> PARCOURS DISPONIBLE</span>
+                        <span class="tool-card-number">04</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">JARDIN · OUTIL DE COUPE</span>
+                        <span class="tool-card-title">La tronçonneuse <span aria-hidden="true">↗</span></span>
+                        <span class="tool-card-description">Identifie ses principales parties et découvre ses risques et les protections indispensables.</span>
+                        <span class="tool-card-footer">Explorer cet outil <span aria-hidden="true">→</span></span>
+                    </span>
+                </button>
+
+                <button class="tool-card is-ready" type="button" data-page="outils/tondeuse/" data-search="tondeuse pelouse gazon herbe moteur carter lame tonte">
+                    <span class="tool-card-art">
+                        <img src="tondeuse.png" alt="" aria-hidden="true">
+                        <span class="tool-card-badge"><span></span> PARCOURS DISPONIBLE</span>
+                        <span class="tool-card-number">05</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">JARDIN · TONTE DE LA PELOUSE</span>
+                        <span class="tool-card-title">La tondeuse <span aria-hidden="true">↗</span></span>
+                        <span class="tool-card-description">Explore le moteur, le guidon, le carter et le bac de ramassage, et découvre les précautions essentielles.</span>
+                        <span class="tool-card-footer">Explorer cet outil <span aria-hidden="true">→</span></span>
+                    </span>
+                </button>
+
+                <article class="tool-card is-ready" data-page="outils/nettoyeur-haute-pression/" data-search="nettoyeur haute pression nettoyeur pression karcher lavage nettoyage eau extérieur terrasse façade">
+                    <span class="tool-card-art">
+                        <img src="nettoyeur-haute-pression.png" alt="" aria-hidden="true">
+                        <span class="tool-card-badge"><span></span> FICHE COMPLÈTE</span>
+                        <span class="tool-card-number">06</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">NETTOYAGE · EXTÉRIEURS</span>
+                        <span class="tool-card-title">Le nettoyeur haute pression</span>
+                        <span class="tool-card-description">Découvre à quoi il sert, ses principaux éléments et les précautions à connaître.</span>
+                        <span class="tool-card-footer">Lire la fiche</span>
+                    </span>
+                </article>
+
+                <article class="tool-card is-ready" data-page="outils/aspirateur-eau-et-poussiere/" data-search="aspirateur eau poussière eau et poussière aspirateur chantier nettoyage liquide solide">
+                    <span class="tool-card-art">
+                        <img src="aspirateur-eau-et-poussiere.png" alt="" aria-hidden="true">
+                        <span class="tool-card-badge"><span></span> FICHE COMPLÈTE</span>
+                        <span class="tool-card-number">07</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">NETTOYAGE · ATELIER</span>
+                        <span class="tool-card-title">L’aspirateur eau et poussière</span>
+                        <span class="tool-card-description">Découvre à quoi il sert, ses principaux éléments et les précautions à connaître.</span>
+                        <span class="tool-card-footer">Lire la fiche</span>
+                    </span>
+                </article>
+
+                <article class="tool-card is-ready" data-page="outils/broyeur-de-vegetaux/" data-search="broyeur végétaux broyeur de végétaux branches broyage jardin déchets verts">
+                    <span class="tool-card-art">
+                        <img src="broyeur-de-vegetaux.png" alt="" aria-hidden="true">
+                        <span class="tool-card-badge"><span></span> FICHE COMPLÈTE</span>
+                        <span class="tool-card-number">08</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">JARDIN · DÉCHETS VERTS</span>
+                        <span class="tool-card-title">Le broyeur de végétaux</span>
+                        <span class="tool-card-description">Découvre à quoi il sert, ses principaux éléments et les précautions à connaître.</span>
+                        <span class="tool-card-footer">Lire la fiche</span>
+                    </span>
+                </article>
+
+                <article class="tool-card is-ready" data-page="outils/groupe-electrogene/" data-search="groupe électrogène groupe electrogene générateur électricité énergie chantier secours">
+                    <span class="tool-card-art">
+                        <img src="groupe-electrogene.png" alt="" aria-hidden="true">
+                        <span class="tool-card-badge"><span></span> FICHE COMPLÈTE</span>
+                        <span class="tool-card-number">09</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">ÉNERGIE · CHANTIER</span>
+                        <span class="tool-card-title">Le groupe électrogène</span>
+                        <span class="tool-card-description">Découvre à quoi il sert, ses principaux éléments et les précautions à connaître.</span>
+                        <span class="tool-card-footer">Lire la fiche</span>
+                    </span>
+                </article>
+
+                <article class="tool-card is-ready" data-page="outils/pulverisateur/" data-search="pulvérisateur pulverisateur pulvérisateur à dos pulverisateur dos traitement jardin pression liquide produit">
+                    <span class="tool-card-art">
+                        <img src="pulverisateur.png" alt="" aria-hidden="true">
+                        <span class="tool-card-badge"><span></span> FICHE COMPLÈTE</span>
+                        <span class="tool-card-number">10</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">JARDIN · PULVÉRISATION</span>
+                        <span class="tool-card-title">Le pulvérisateur</span>
+                        <span class="tool-card-description">Découvre à quoi il sert, ses principaux éléments et les précautions à connaître.</span>
+                        <span class="tool-card-footer">Lire la fiche</span>
+                    </span>
+                </article>
+
+                <article class="tool-card is-ready" data-page="outils/fendeur-de-buches/" data-search="fendeur de bûches fendeur buches bois bûche bûches fendage">
+                    <span class="tool-card-art">
+                        <img src="fendeur-de-buches.png" alt="" aria-hidden="true">
+                        <span class="tool-card-badge"><span></span> FICHE COMPLÈTE</span>
+                        <span class="tool-card-number">11</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">BOIS · FENDAGE</span>
+                        <span class="tool-card-title">Le fendeur de bûches</span>
+                        <span class="tool-card-description">Découvre à quoi il sert, ses principaux éléments et les précautions à connaître.</span>
+                        <span class="tool-card-footer">Lire la fiche</span>
+                    </span>
+                </article>
+
+                <article class="tool-card is-ready" data-page="outils/decoupeuse-a-disque-thermique/" data-search="découpeuse à disque thermique disqueuse thermique tronçonneuse à disque découpe béton pierre chantier">
+                    <span class="tool-card-art">
+                        <img src="decoupeuse-a-disque-thermique-photo.png" alt="" aria-hidden="true" loading="lazy">
+                        <span class="tool-card-badge"><span></span> FICHE COMPLÈTE</span>
+                        <span class="tool-card-number">12</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">CHANTIER · DÉCOUPE</span>
+                        <span class="tool-card-title">La découpeuse à disque thermique</span>
+                        <span class="tool-card-description">Découvre à quoi il sert, ses principaux éléments et les précautions à connaître.</span>
+                        <span class="tool-card-footer">Lire la fiche</span>
+                    </span>
+                </article>
+
+                <article class="tool-card is-ready" data-page="outils/decoupeuse-a-disque-sur-chariot/" data-search="découpeuse à disque sur chariot scie à sol découpeuse chariot disque béton enrobé chantier">
+                    <span class="tool-card-art">
+                        <span class="tool-card-placeholder" aria-hidden="true"><span>EMPLACEMENT RÉSERVÉ</span><strong>IMAGE À AJOUTER</strong></span>
+                        <span class="tool-card-badge"><span></span> FICHE COMPLÈTE</span>
+                        <span class="tool-card-number">13</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">CHANTIER · DÉCOUPE AU SOL</span>
+                        <span class="tool-card-title">La découpeuse à disque sur chariot</span>
+                        <span class="tool-card-description">Découvre à quoi il sert, ses principaux éléments et les précautions à connaître.</span>
+                        <span class="tool-card-footer">Lire la fiche</span>
+                    </span>
+                </article>
+
+                <article class="tool-card is-ready" data-page="outils/marteau-piqueur-brise-beton/" data-search="marteau-piqueur brise-béton brise béton burineur démolition chantier">
+                    <span class="tool-card-art">
+                        <img src="marteau-piqueur-brise-beton.png" alt="" aria-hidden="true" loading="lazy">
+                        <span class="tool-card-badge"><span></span> FICHE COMPLÈTE</span>
+                        <span class="tool-card-number">14</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">CHANTIER · DÉMOLITION</span>
+                        <span class="tool-card-title">Le marteau-piqueur / brise-béton</span>
+                        <span class="tool-card-description">Découvre à quoi il sert, ses principaux éléments et les précautions à connaître.</span>
+                        <span class="tool-card-footer">Lire la fiche</span>
+                    </span>
+                </article>
+
+                <article class="tool-card is-ready" data-page="outils/souffleur-a-main/" data-search="souffleur à main souffleur main feuilles nettoyage extérieur air jardin">
+                    <span class="tool-card-art">
+                        <img src="souffleur-main.png" alt="" aria-hidden="true">
+                        <span class="tool-card-badge"><span></span> FICHE COMPLÈTE</span>
+                        <span class="tool-card-number">15</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">JARDIN · NETTOYAGE DES EXTÉRIEURS</span>
+                        <span class="tool-card-title">Le souffleur à main</span>
+                        <span class="tool-card-description">Découvre à quoi il sert, ses principaux éléments et les précautions à connaître.</span>
+                        <span class="tool-card-footer">Lire la fiche</span>
+                    </span>
+                </article>
+
+                <article class="tool-card is-ready" data-page="outils/aspirateur-de-feuilles-a-dos/" data-search="aspirateur de feuilles à dos aspirateur feuilles dos aspiration jardin nettoyage extérieur">
+                    <span class="tool-card-art">
+                        <span class="tool-card-placeholder" aria-hidden="true"><span>EMPLACEMENT RÉSERVÉ</span><strong>IMAGE À AJOUTER</strong></span>
+                        <span class="tool-card-badge"><span></span> FICHE COMPLÈTE</span>
+                        <span class="tool-card-number">16</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">JARDIN · RAMASSAGE DES FEUILLES</span>
+                        <span class="tool-card-title">L’aspirateur de feuilles à dos</span>
+                        <span class="tool-card-description">Découvre à quoi il sert, ses principaux éléments et les précautions à connaître.</span>
+                        <span class="tool-card-footer">Lire la fiche</span>
+                    </span>
+                </article>
+
+                <article class="tool-card is-ready" data-page="outils/taille-haie-sur-perche/" data-search="taille-haie sur perche taille haie perche haies arbustes coupe en hauteur">
+                    <span class="tool-card-art">
+                        <img src="taille-haie-sur-perche.png" alt="" aria-hidden="true" loading="lazy">
+                        <span class="tool-card-badge"><span></span> FICHE COMPLÈTE</span>
+                        <span class="tool-card-number">17</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">JARDIN · TAILLE EN HAUTEUR</span>
+                        <span class="tool-card-title">Le taille-haie sur perche</span>
+                        <span class="tool-card-description">Découvre à quoi il sert, ses principaux éléments et les précautions à connaître.</span>
+                        <span class="tool-card-footer">Lire la fiche</span>
+                    </span>
+                </article>
+
+                <article class="tool-card is-ready" data-page="outils/perche-elagueuse/" data-search="perche élagueuse perche d'élagage élagueuse sur perche scie branches arbres hauteur">
+                    <span class="tool-card-art">
+                        <img src="perche-elagueuse.png" alt="" aria-hidden="true" loading="lazy">
+                        <span class="tool-card-badge"><span></span> FICHE COMPLÈTE</span>
+                        <span class="tool-card-number">18</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">JARDIN · ÉLAGAGE EN HAUTEUR</span>
+                        <span class="tool-card-title">La perche élagueuse</span>
+                        <span class="tool-card-description">Découvre à quoi il sert, ses principaux éléments et les précautions à connaître.</span>
+                        <span class="tool-card-footer">Lire la fiche</span>
+                    </span>
+                </article>
+
+                <article class="tool-card is-ready" data-page="outils/tariere-thermique/" data-search="tarière thermique foreuse de sol tarière trou terre plantation poteau">
+                    <span class="tool-card-art">
+                        <span class="tool-card-placeholder" aria-hidden="true"><span>EMPLACEMENT RÉSERVÉ</span><strong>IMAGE À AJOUTER</strong></span>
+                        <span class="tool-card-badge"><span></span> FICHE COMPLÈTE</span>
+                        <span class="tool-card-number">19</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">JARDIN · TRAVAIL DU SOL</span>
+                        <span class="tool-card-title">La tarière thermique</span>
+                        <span class="tool-card-description">Découvre à quoi il sert, ses principaux éléments et les précautions à connaître.</span>
+                        <span class="tool-card-footer">Lire la fiche</span>
+                    </span>
+                </article>
+
+                <article class="tool-card is-ready" data-page="outils/rouleau-a-gazon/" data-search="rouleau à gazon rouleau gazon pelouse jardin sol niveler tasser">
+                    <span class="tool-card-art">
+                        <span class="tool-card-placeholder" aria-hidden="true"><span>EMPLACEMENT RÉSERVÉ</span><strong>IMAGE À AJOUTER</strong></span>
+                        <span class="tool-card-badge"><span></span> FICHE COMPLÈTE</span>
+                        <span class="tool-card-number">20</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">JARDIN · ENTRETIEN DE LA PELOUSE</span>
+                        <span class="tool-card-title">Le rouleau à gazon</span>
+                        <span class="tool-card-description">Découvre à quoi il sert, ses principaux éléments et les précautions à connaître.</span>
+                        <span class="tool-card-footer">Lire la fiche</span>
+                    </span>
+                </article>
+
+                <article class="tool-card is-ready" data-page="outils/motobineuse/" data-search="motobineuse motoculteur cultivateur de sol travail terre jardin labour">
+                    <span class="tool-card-art">
+                        <img src="motobineuse.png" alt="" aria-hidden="true">
+                        <span class="tool-card-badge"><span></span> FICHE COMPLÈTE</span>
+                        <span class="tool-card-number">21</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">JARDIN · TRAVAIL DU SOL</span>
+                        <span class="tool-card-title">La motobineuse</span>
+                        <span class="tool-card-description">Découvre à quoi il sert, ses principaux éléments et les précautions à connaître.</span>
+                        <span class="tool-card-footer">Lire la fiche</span>
+                    </span>
+                </article>
+
+                <article class="tool-card is-ready" data-page="outils/tondeuse-autoportee/" data-search="tondeuse autoportée tracteur tondeuse pelouse gazon conduite coupe">
+                    <span class="tool-card-art">
+                        <img src="tondeuse-autoportee-photo.png" alt="" aria-hidden="true" loading="lazy">
+                        <span class="tool-card-badge"><span></span> FICHE COMPLÈTE</span>
+                        <span class="tool-card-number">22</span>
+                    </span>
+                    <span class="tool-card-copy">
+                        <span class="tool-card-kicker">JARDIN · TONTE DES GRANDES PELOUSES</span>
+                        <span class="tool-card-title">La tondeuse autoportée</span>
+                        <span class="tool-card-description">Découvre ses commandes, son plateau de coupe et les précautions à connaître.</span>
+                        <span class="tool-card-footer">Lire la fiche</span>
+                    </span>
+                </article>
+
+            </div>
+            <p class="empty-tools" id="empty-tools" hidden>Aucun outil ne correspond à cette recherche.</p>
+
+            <section class="ccf-section" id="entrainement-ccf" aria-labelledby="ccf-title">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow"><span class="eyebrow-dot"></span> S’ENTRAÎNER EN SITUATION</p>
+                        <h2 id="ccf-title">Un chantier à préparer<span class="period">.</span></h2>
+                    </div>
+                    <p class="section-intro">10 chantiers différents pour raisonner, faire des choix et préparer le CCF.</p>
+                </div>
+                <article class="ccf-card" id="ccf-activity" aria-live="polite">
+                    <div class="ccf-brief">
+                        <label class="lesson-eyebrow ccf-select-label" for="ccf-scenario-select">CHOISIS TON CHANTIER</label>
+                        <select id="ccf-scenario-select" class="ccf-scenario-select" aria-label="Choisir une mise en situation"></select>
+                        <h3 id="ccf-project-title">Remettre en état les abords d’un espace communal</h3>
+                        <p id="ccf-project-brief">Tu fais partie d’une équipe d’entretien. La demande concerne une pelouse, une zone d’herbe verte haute d’environ 60 cm, quelques repousses ligneuses et une haie. Le site est proche d’un chemin fréquenté. Tu dois préparer l’intervention, réagir aux imprévus et rendre compte du travail.</p>
+                        <p class="ccf-brief-note">Toutes les mises en situation ont été créées avec l’aide d’une intelligence artificielle. Elles servent à s’entraîner : vérifie toujours les consignes avec ton enseignant et la notice du matériel. Ce ne sont pas des sujets officiels ni une autorisation à utiliser seul une machine.</p>
+                    </div>
+                    <div class="ccf-quiz">
+                        <div class="ccf-progress-row"><span id="ccf-step-label">Étape 1 sur 7</span><span id="ccf-score-label">0 bonne réponse</span></div>
+                        <progress id="ccf-progress" max="7" value="0" aria-label="Progression de l’entraînement"></progress>
+                        <p class="ccf-situation" id="ccf-situation"></p>
+                        <h3 class="ccf-question" id="ccf-question"></h3>
+                        <div class="ccf-choices" id="ccf-choices"></div>
+                        <p class="ccf-feedback" id="ccf-feedback" role="status" hidden></p>
+                        <div class="ccf-controls">
+                            <button class="primary-button" id="ccf-check" type="button" disabled>Valider mon choix</button>
+                            <button class="primary-button" id="ccf-next" type="button" hidden>Étape suivante <span aria-hidden="true">→</span></button>
+                            <button class="text-button" id="ccf-restart" type="button" hidden>Recommencer la mise en situation</button>
+                        </div>
+                        <div class="ccf-results" id="ccf-results" hidden></div>
+                    </div>
+                </article>
+            </section>
+
+            <aside class="tool-showcase">
+                <img src="outils-de-jardin.png" alt="Plusieurs outils de jardin : motoculteur, tondeuse, coupe-bordure, tronçonneuse et souffleur">
+                <div><p class="tool-card-kicker">D’AUTRES OUTILS À DÉCOUVRIR</p><p>Le jardin a encore plein d’outils à nous présenter.</p></div>
+            </aside>
+        </section>
+
+    </main>
+
+    <footer class="footer"><a class="footer-brand" href="#accueil" data-tribute-trigger aria-label="L’Atelier du geste — cliquer cinq fois pour découvrir un hommage secret">L’Atelier du geste<span>.</span></a><p>Créé par Justin Declemy · Comprendre l’outil, c’est déjà prendre soin de soi.</p><p class="bug-report">Un bug à signaler ? <a href="mailto:peurdeypro@gmail.com">Écris-moi par e-mail</a> ou viens m’en parler en personne (IRL).</p><a href="#accueil">Retour en haut ↑</a></footer>
+
+    <dialog class="tribute-dialog" id="tribute-dialog" aria-labelledby="tribute-title">
+        <div class="tribute-content">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> UN HOMMAGE DISCRET</p>
+            <h2 id="tribute-title">À celles et ceux qu’on n’oublie pas<span class="period">.</span></h2>
+            <p>Un clin d’œil à Harmel Hochard, Louis Marichez, Loris et au Lycée Agricole de Coulogne.</p>
+            <button class="primary-button" id="tribute-close" type="button">Fermer</button>
+        </div>
+    </dialog>
+</body>
+</html>

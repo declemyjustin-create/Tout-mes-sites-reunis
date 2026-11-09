@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=2">
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -30,13 +30,13 @@
                 <a class="intro-link" href="#projets">Découvrir les projets <span aria-hidden="true">↓</span></a>
             </div>
             <div class="intro-art" aria-hidden="true">
-                <span class="art-index">01 — 03</span>
+                <span class="art-index">01 — 04</span>
                 <div class="art-orbit orbit-one"></div>
                 <div class="art-orbit orbit-two"></div>
                 <div class="art-core">JD</div>
                 <span class="art-caption">Un espace<br>en mouvement</span>
             </div>
-            <div class="intro-bottom"><span>POSSESION, LA RÉUNION</span><span>3 PROJETS · 3 UNIVERS</span></div>
+            <div class="intro-bottom"><span>POSSESION, LA RÉUNION</span><span>4 PROJETS · 4 UNIVERS</span></div>
         </section>
 
         <section class="projects" id="projets" aria-labelledby="projects-title">
@@ -54,18 +54,19 @@
 
             <div class="project-tools">
                 <div class="filters" role="group" aria-label="Filtrer les projets">
-                    <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Tous <span>03</span></button>
+                    <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Tous <span>04</span></button>
                     <button class="filter-button" type="button" data-filter="nature" aria-pressed="false">Nature</button>
+                    <button class="filter-button" type="button" data-filter="tools" aria-pressed="false">Outils</button>
                     <button class="filter-button" type="button" data-filter="english" aria-pressed="false">English</button>
                     <button class="filter-button" type="button" data-filter="fiction" aria-pressed="false">Fiction</button>
                 </div>
-                <p class="results-count" aria-live="polite"><span id="visible-count">03</span> projets</p>
+                <p class="results-count" aria-live="polite"><span id="visible-count">04</span> projets</p>
             </div>
 
             <div class="project-grid" id="project-grid">
                 <a class="project-card card-climate" href="anglais-rechaufement-climatique/index.html" data-category="english" data-search="climate change réchauffement climatique anglais planète london courrier terre">
                     <div class="card-image">
-                        <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Montagnes couvertes de brume au lever du jour" loading="lazy">
+                        <img src="images/climate-valley.jpg" alt="Montagnes couvertes de brume au lever du jour" loading="lazy">
                         <span class="card-number">01</span>
                         <span class="card-type">ANGLAIS · ENVIRONNEMENT</span>
                         <span class="card-arrow" aria-hidden="true">↗</span>
@@ -91,10 +92,24 @@
                     </div>
                 </a>
 
+                <a class="project-card card-tools" href="Outil/index.html" data-category="tools" data-search="outil débroussailleuse souffleur taille-haie tronçonneuse tondeuse pièces fonctionnement dangers sécurité epi équipement protection">
+                    <div class="card-image">
+                        <img src="Outil/outils-de-jardin.png" alt="Plusieurs outils de jardin pour apprendre à s’en servir en sécurité" loading="lazy">
+                        <span class="card-number">03</span>
+                        <span class="card-type">OUTILS · APPRENTISSAGE</span>
+                        <span class="card-arrow" aria-hidden="true">↗</span>
+                    </div>
+                    <div class="card-copy">
+                        <div class="card-title-row"><h3>L’Atelier du geste</h3><span class="card-language">FR</span></div>
+                        <p>Explore une débroussailleuse, un souffleur, un taille-haie, une tronçonneuse ou une tondeuse.</p>
+                        <span class="card-cta">Découvrir le parcours <span aria-hidden="true">→</span></span>
+                    </div>
+                </a>
+
                 <a class="project-card card-hero" href="travail-super-hero/index.html" data-category="fiction" data-search="réunionator super héros fiction saint leu mystère courrier">
                     <div class="card-image">
-                        <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Forêt dense et mystérieuse dans les hauts" loading="lazy">
-                        <span class="card-number">03</span>
+                        <img src="images/misty-forest.jpg" alt="Forêt dense et mystérieuse dans les hauts" loading="lazy">
+                        <span class="card-number">04</span>
                         <span class="card-type">FICTION · SAINT-LEU</span>
                         <span class="card-arrow" aria-hidden="true">↗</span>
                     </div>
@@ -113,6 +128,7 @@
     <footer class="site-footer">
         <a class="footer-mark" href="#accueil">JD<span>.</span></a>
         <p>Un endroit pour rassembler ce qui m’inspire.</p>
+        <p class="bug-report">Un bug à signaler ? <a href="mailto:peurdeypro@gmail.com">Écris-moi par e-mail</a> ou viens m’en parler en personne (IRL).</p>
         <a class="back-top" href="#accueil">Retour en haut <span aria-hidden="true">↑</span></a>
     </footer>
 </body>
