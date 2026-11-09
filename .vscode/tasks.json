@@ -1,0 +1,39 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Démarrer L’Atelier du geste",
+			"type": "shell",
+			"command": "python3",
+			"args": [
+				"-m",
+				"http.server",
+				"8000",
+				"--bind",
+				"0.0.0.0",
+				"--directory",
+				"/workspaces/Tout-mes-sites-reunis/Outil"
+			],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Démarrer le portfolio et ses applications",
+			"type": "shell",
+			"command": "python3",
+			"args": [
+				"-m",
+				"http.server",
+				"8000",
+				"--bind",
+				"0.0.0.0",
+				"--directory",
+				"/workspaces/Tout-mes-sites-reunis"
+			],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
