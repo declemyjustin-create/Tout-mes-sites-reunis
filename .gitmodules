@@ -1,0 +1,11 @@
+[submodule "Travail-sur-la-haie"]
+	path = Travail-sur-la-haie
+	url = https://github.com/peurdeypro-bot/Travail-sur-la-haie.git
+
+[submodule "anglais-rechaufement-climatique"]
+	path = anglais-rechaufement-climatique
+	url = https://github.com/peurdeypro-bot/anglais-rechaufement-climatique.git
+
+[submodule "travail-super-hero"]
+	path = travail-super-hero
+	url = https://github.com/peurdeypro-bot/travail-super-hero.git
