@@ -74,7 +74,9 @@ Depuis la racine du projet :
 
 ```bash
 cd /workspaces/Tout-mes-sites-reunis
-python3 -m http.server 8000 --bind 0.0.0.0
+python3 -m http.server 8001 --bind 0.0.0.0
+python3 -m http.server 3000 --bind 0.0.0.0
+cd /workspaces/Tout-mes-sites-reunis/Pronote && HOST=0.0.0.0 PORT=3000 npm start
 ```
 
 Ensuite ouvrez dans le navigateur :
